@@ -10,8 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the dataset
-path_to_dataset='./Datasets/bmi.csv'
-data = pd.read_csv(path_to_dataset)
+data = pd.read_csv("bmi.csv")
 
 # Define features (X) and target (y)
 X = data[['Age', 'Height', 'Weight', 'Bmi']]

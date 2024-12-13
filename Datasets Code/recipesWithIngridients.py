@@ -58,4 +58,4 @@ def save_to_csv(data, filename):
 asian_dishes = fetch_asian_dishes()
 if asian_dishes:
     processed_data = process_data(asian_dishes)
-    save_to_csv(processed_data, 'recipesIngridients.csv')
+    save_to_csv(processed_data, './Datasets/recipesIngridients.csv')

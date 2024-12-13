@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     if recipes_data:
         print("Saving data to recipesWithoutIngridients.csv...")
-        save_to_csv(recipes_data, 'RecipesWithoutIngridients.csv')
+        save_to_csv(recipes_data, './Datasets/RecipesWithoutIngridients.csv')
         print("Data saved successfully!")
     else:
         print("Failed to fetch or save data.")

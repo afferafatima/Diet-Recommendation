@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Load the CSV files
-recipes_with_ingredients = pd.read_csv('recipesIngridients.csv')
-recipes_without_ingredients = pd.read_csv('RecipesWithoutIngridients.csv')
+recipes_with_ingredients = pd.read_csv('./Datasets/RecipesWithIngridients.csv')
+recipes_without_ingredients = pd.read_csv('./Datasets/RecipesWithoutIngridients.csv')
 
 # Merge the two files on 'Recipe ID' using an outer join
 merged_data = pd.merge(
